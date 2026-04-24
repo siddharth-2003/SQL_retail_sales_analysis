@@ -1,5 +1,5 @@
 --creating table
-/* DROP TABLE IF EXISTS retail_sales_tb;
+ DROP TABLE IF EXISTS retail_sales_tb;
 CREATE TABLE retail_sales_tb
 	( 
 		transactions_id INT PRIMARY KEY,
@@ -13,10 +13,10 @@ CREATE TABLE retail_sales_tb
 		price_per_unit FLOAT,
 		cogs FLOAT,
 		total_sale FLOAT
-	); */
+	); 
 -- data cleaning
 
-/* select * from retail_sales_tb
+ select * from retail_sales_tb
 where 
 	 transactions_id IS NULL
 	 or
@@ -38,8 +38,8 @@ where
 	 or
 	 cogs is null
 	 or
-	 total_sale is null */
-/* delete from  retail_sales_tb
+	 total_sale is null 
+ delete from  retail_sales_tb
 where 
 	 transactions_id IS NULL
 	 or
@@ -62,7 +62,7 @@ where
 	 cogs is null
 	 or
 	 total_sale is null
-*/
+
 
 --data exploration
 --How many sales do we have?
